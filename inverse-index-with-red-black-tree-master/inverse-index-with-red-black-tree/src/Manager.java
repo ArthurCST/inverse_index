@@ -62,7 +62,7 @@ public class Manager {
                  }
 
             } catch (IOException ex) {
-                System.out.println("NÃ£o foi possivel ler a linha em '" + file.name + "'");
+                System.out.println("Nao foi possivel ler a linha em '" + file.name + "'");
             }
         }
         return tree;
